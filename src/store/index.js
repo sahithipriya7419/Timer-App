@@ -2,10 +2,18 @@ import { createStore } from 'vuex'
 
 export default createStore({
   state: {
-  },
-  getters: {
+    minute:0,
+    second:0
   },
   mutations: {
+    // setMinutes(state, payload)
+    // {
+    //     state.minute = payload
+    // },
+    // setSeconds(state, payload)
+    // {
+    //     state.second = payload
+    // }
   },
   actions: {
   },
